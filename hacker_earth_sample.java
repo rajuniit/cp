@@ -7,7 +7,11 @@ import java.io.InputStreamReader;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-
+/**
+ * Fastest Way to read input and print output
+ *
+ * Author: Raju Mazumder <rajuniit@gmail.com>
+ */
 class TestClass {
     public static void main(String args[] ) throws Exception {
     	InputStream inputStream = System.in;
@@ -22,8 +26,7 @@ class TestClass {
 
     static class Programmer {
     	public void solve(InputReader in, PrintWriter out) {
-    		out.println(in.nextInt() * 2);
-    		out.println(in.next());
+    		// Write your code here
     	}
     }
 
